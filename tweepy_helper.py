@@ -1,74 +1,140 @@
-import tweepy as twp
-from time import sleep, strftime, time
-import config
+#!/usr/bin/env python
 
-TIME = time()
+# Tested in Python 3
 
-class TwAPI:
-    def __init__(self, mode):
-        """
-        :mode: either "user" or "app"
-        :return: nothing
-        """
+# Sebastian Raschka, 2014
+# An interactive command line app for
+# downloading your personal twitter timeline.
+#
+# For help, execute
+# ./twitter_timeline.py --help
 
-        cons_key = "gPD2ZjrRaXY6OKSWiza5YQJOg"
-        cons_sec = 'KaPXywbktbNeOzpegQzDHAQp2qnpicgcCLqnzw451BsxdmQGYx' # own key
+import twitter
+from datetime import datetime
+import time
+import re
+import sys
+import pandas as pd
+import pyprind as pp
+import config as auth # our local file with the OAuth infos
 
-        if mode == "user":
-            accs_tok = '272311979-SWU6JF7TM62mGFn2ZC3xN8Fh6nQHB22cngAuMc1I' # own key
-            accs_sec = 'A6gqoojWr8TYuJMXVDKxb892uM7HJeCoP8b4rkmTi3PZ0' # own key
-
-            self.auth = twp.OAuthHandler(cons_key, cons_sec)
-            self.auth.set_access_token(accs_tok, accs_sec)
-
-        if mode == "app":
-            self.auth = twp.AppAuthHandler(cons_key, cons_sec)
-
-        self.mode = mode
-        self.api = twp.API(self.auth)
-
-    def get_friends(self, name):
-        cursor = twp.Cursor(self.api.friends, id=name, count=200)
-        l = list()
-        for i in cursor.pages():
-            for user in i:
-                l.append(user.screen_name)
-            return l
-
-    def get_timeline(self, name):
-        cursor = twp.Cursor(self.api.user_timeline, id=name, count=200)
-        for i in cursor.pages():
-            sleep(self.sleepy_time('timeline'))
-            for tweet in i:
-                yield tweet
+class TimelineMiner(object):
+    def __init__(self, access_token, access_secret, consumer_key, consumer_secret, user_name):
+        self.access_token = access_token
+        self.access_secret = access_secret
+        self.consumer_key = consumer_key
+        self.consumer_secret = consumer_secret
+        self.user_name = user_name
+        self.auth = None
+        self.df = pd.DataFrame(columns=['timestamp', 'tweet'], dtype='str')
 
 
-    def sleepy_time(self, sw):
-        """
-        TODO: make the limit fetch itself given a target so we can get
-            rid of the ugly if/elif statements that do the same. Can
-            be fetched from self.api.rate_limit_status()['resources'].
+    def authenticate(self):
+        self.auth = twitter.Twitter(auth=twitter.OAuth(self.access_token, 
+                    self.access_secret, self.consumer_key, 
+                    self.consumer_secret))
+        return bool(isinstance(self.auth, twitter.api.Twitter))
+        
 
-        :sw: friends or messages
-        :return: float cooldown seconds
-        """
-        global TIME
-        t = strftime('%H:%M:%S')
-        if sw == 'friends':
-            lim = 0  # correct
-        elif sw == 'messages':
-            lim = 180 if self.mode == "user" else 60
-        elif sw == 'timeline':
-            lim = 180 if self.mode == "user" else 300
-        else:
-            lim = 15 if self.mode == "user" else 30
+    def get_timeline(self, max=0, keywords=[]):
+        if keywords:
+            self.df['keywords'] = ''
+        tweet_ids = [self.auth.statuses.user_timeline(
+                user_id=self.user_name, count=1
+                )[0]['id']] # the ID of my last tweet
+        last_count = 200
+        counter = 0
+        while last_count == 200:
+            timeline = self.auth.statuses.user_timeline(user_id=self.user_name, count=200, max_id=tweet_ids[-1])
+            for tweet in range(len(timeline)):
+        
+                text = timeline[tweet]['text'].replace('"', '\'')
+                tweet_id = int(timeline[tweet]['id'])
+                date = self.__get_date(timeline, tweet)
+                
+                if keywords:
+                    for k in keywords:
+                        if self.__check_keyword(text,k):
+                            self.df.loc[counter,'tweet'] = text
+                            self.df.loc[counter,'timestamp'] = date
+                            try:
+                                self.df.loc[counter,'keywords'].append(k)
+                            except AttributeError:
+                                self.df.loc[counter,'keywords'] = [k]
+                    try:
+                        self.df.loc[counter,'keywords'] = ';'.join(self.df.loc[counter,'keywords'])
+                    except KeyError:
+                        pass
+                        
+                    
+                else:
+                    self.df.loc[counter,'tweet'] = text
+                    self.df.loc[counter,'timestamp'] = date
+                              
+                counter += 1
+                if max and counter >= max:
+                    break
+                
+                sys.stdout.flush()   
+                sys.stdout.write('\rTweets downloaded: %s' %counter)   
+                    
+            if max and counter >= max:
+                break
+            last_count = len(timeline)
+            tweet_ids.append(timeline[-1]['id'])
+            time.sleep(1)
+        print()
+        
+    def make_csv(self, path):
+        self.df.to_csv(path, encoding='utf8')
 
-        process_time = time() - TIME
-        TIME = time()
-        cooldown = float(15 * 60) / float(lim) - process_time
+    def __get_date(self, timeline, tweet):
+        timest = datetime.strptime(timeline[tweet]['created_at'],
+                                      "%a %b %d %H:%M:%S +0000 %Y")
+        date = timest.strftime("%Y-%d-%m %H:%M:%S")
+        return date
+    
+    def __check_keyword(self, s, key):
+        return bool(re.search(key, s, re.IGNORECASE))
+        
+    
+if __name__ == "__main__":
+    
+    import argparse
+    
+    parser = argparse.ArgumentParser(
+            description='A command line tool to download your personal twitter timeline.',
+            formatter_class=argparse.RawTextHelpFormatter,
+    epilog='\nExample:\n'\
+                './twitter_timeline.py -o my_timeline.csv -k Python,Github')
 
-        return cooldown if cooldown > 0 else 0
-
-api = TwAPI("user")
-print(api.get_friends("desterio"))
-#api.get_timeline("_cmry")
+    parser.add_argument('-o', '--out', help='Filename for creating the output CSV file.')
+    parser.add_argument('-m', '--max', help='Maximum number (integer) of timeline tweets query (searches all by default)')
+    parser.add_argument('-k', '--keywords', help='A comma separated list of keywords for filtering (optional).')
+    parser.add_argument('-v', '--version', action='version', version='v. 1.0.1')
+    
+    args = parser.parse_args()
+    
+    if not args.out:
+        print('Please provide a filename for creating the output CSV file.')
+        quit()
+    
+    tm = TimelineMiner(auth.ACCESS_TOKEN, 
+                       auth.ACCESS_TOKEN_SECRET,  
+                       auth.CONSUMER_KEY, 
+                       auth.CONSUMER_SECRET,
+                       auth.USER_NAME)
+                       
+    if not args.max:
+        max_t = 0
+    else:
+        max_t = int(args.max)
+    if args.keywords:
+        keywords = args.keywords.split(',')
+    else:
+        keywords = args.keywords
+        
+    print('Authentification successful: %s' %tm.authenticate())
+    tm.get_timeline(max=max_t, keywords=keywords)
+    tm.make_csv(args.out)
+    

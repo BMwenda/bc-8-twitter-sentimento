@@ -1,18 +1,28 @@
 import json
 import tweepy
-from tweepy import OAuthHandler
+import oauth_handler
 
-#Twitter Credentials
-consumer_key = "gPD2ZjrRaXY6OKSWiza5YQJOg"
-consumer_secret = "KaPXywbktbNeOzpegQzDHAQp2qnpicgcCLqnzw451BsxdmQGYx"
-access_key = "272311979-SWU6JF7TM62mGFn2ZC3xN8Fh6nQHB22cngAuMc1I"
-access_secret = "A6gqoojWr8TYuJMXVDKxb892uM7HJeCoP8b4rkmTi3PZ0"
+auth = oauth_handler.getAuth()
+   
+api  = tweepy.API(auth)
 
-auth = OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_key, access_secret)
+user_tweets = []
 
-api = tweepy.API(auth)
+def save_to_json(data):
+    with open("tweets.json", "w") as out_file:
+        json.dump(data, out_file)
 
-for status in tweepy.Cursor(api.home_timeline).items(10):
-    #Process a single status
-    print(status.text)
+
+def twitter_fetch(screen_name = "BBCNews", maxnumtweets=200):
+    'Fetch tweets from @BBCNews'
+
+    tweets = tweepy.Cursor(api.user_timeline, id=screen_name).items(10)
+    for status in tweets:
+        print(status.text + "\n")
+        user_tweets.append(status.text)
+    save_to_json(user_tweets)
+
+  
+
+if __name__ == '__main__':
+    twitter_fetch('@Mwaniki', 50)

@@ -1,12 +1,11 @@
 import json
 import config
 from twitter import *
-import config
 
-consumer_key="gPD2ZjrRaXY6OKSWiza5YQJOg"
-consumer_secret="KaPXywbktbNeOzpegQzDHAQp2qnpicgcCLqnzw451BsxdmQGYx"
-access_token="272311979-SWU6JF7TM62mGFn2ZC3xN8Fh6nQHB22cngAuMc1I"
-access_token_secret="A6gqoojWr8TYuJMXVDKxb892uM7HJeCoP8b4rkmTi3PZ0"
+consumer_key = config.consumer_key
+consumer_secret = config.consumer_secret
+access_token = config.access_token
+access_token_secret = config.access_token_secret
 
 twitter = Twitter(auth = OAuth(access_token, access_token_secret, consumer_key, consumer_secret))
 

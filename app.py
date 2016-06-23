@@ -84,15 +84,45 @@ def get_hash_tags():
 
      return terms_hash
 
+def get_single_terms():
+    tweets = remove_stop_words()
+    terms_single = set(tweets)
+
+    return terms_single
+
 def get_terms_only_with_no_mentions():
      tweets = remove_stop_words()
      terms_only = [term for term in tweets if term not in stop and not term.startswith(("#", "@"))]
 
      return terms_only
 
+def print_it(my_list):
+    for item in my_list:
+        print(item + "\n")
 
-#print(len(get_stop_words()))
-#get_first_tweet()
-get_top_five_terms()
-#print(get_hash_tags())
+print("Lets do a little analysis of this tweets:\n")
+print("All the words in the tweet with their occurrences in descending:\n")
+print(get_word_count())
+print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print("\n")
+print("\n")
+
+print("Top words five words in the tweets:\n")
+print(get_top_five_terms())
+print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print("\n")
+print("\n")
+
+print("Hash tags in our tweets:\n")
+print(get_hash_tags())
+print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print("\n")
+print("\n")
+
+#print_it(get_top_five_terms())
+#print_it(get_hash_tags())
 #print(get_terms_only_with_no_mentions())
+#print_it(get_single_terms())

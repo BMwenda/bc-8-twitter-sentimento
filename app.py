@@ -4,10 +4,9 @@ from twitter import *
 import time
 import datetime
 from pprint import pprint
-import panda as pd
 import operator
 from collections import Counter
-from nltk.corpus import stopwords
+import sanitize_helper
 
 config_file = open("config_dev.json", "r")
 config = json.loads(config_file.read())
@@ -21,7 +20,6 @@ twitter = Twitter(auth = OAuth(access_token, access_token_secret, consumer_key, 
 
 def get_tweets(twitter_handle, max_number_of_tweets):
     tweets = twitter.statuses.user_timeline(screen_name = twitter_handle, count=max_number_of_tweets)
-    #user_tweets = str(json.loads(tweets))
 
     return tweets
 
@@ -38,13 +36,15 @@ def read_from_json():
     for dictionary in data:
         tweet_list.append(dictionary["text"])
 
-    return tweet_list
+    tweets_sentence = ", ".join(tweet_list)
+    return tweets_sentence
 
+def remove_stop_words():
+    data = read_from_json().split()
 
-save_to_json(get_tweets("Mwaniki", 10))
-#print(read_from_json_and_return_text_list())
+    filtered_words = sanitize_helper.sanitize(data, sanitize_helper.stop_words)
 
-my_list = read_from_json()
-#print(my_list[0])
-#for text in my_list:
-    #print(text)
+    return filtered_words
+
+#print(read_from_json())
+print(remove_stop_words())

@@ -1,0 +1,2314 @@
+[{
+    "contributors": null,
+    "truncated": false,
+    "text": "RT @Andela: From Nairobi to Lagos to NYC we're excited to announce a $24M Series B from Zuckerberg's CZI https://t.co/ybRwkmN3lX https://t.…",
+    "is_quote_status": false,
+    "in_reply_to_status_id": null,
+    "id": 743444370393800700,
+    "favorite_count": 0,
+    "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+    "retweeted": false,
+    "coordinates": null,
+    "entities": {
+        "symbols": [],
+        "user_mentions": [{
+            "id": 1378315837,
+            "indices": [
+                3,
+                10
+            ],
+            "id_str": "1378315837",
+            "screen_name": "Andela",
+            "name": "Andela"
+        }],
+        "hashtags": [],
+        "urls": [{
+            "url": "https://t.co/ybRwkmN3lX",
+            "indices": [
+                105,
+                128
+            ],
+            "expanded_url": "https://goo.gl/b5MH6D",
+            "display_url": "goo.gl/b5MH6D"
+        }],
+        "media": [{
+            "source_user_id": 1378315837,
+            "source_status_id_str": "743440856372363264",
+            "expanded_url": "http://twitter.com/Andela/status/743440856372363264/photo/1",
+            "display_url": "pic.twitter.com/gtpzJymxNf",
+            "url": "https://t.co/gtpzJymxNf",
+            "media_url_https": "https://pbs.twimg.com/media/ClE7hBSXIAQRbFm.jpg",
+            "source_user_id_str": "1378315837",
+            "source_status_id": 743440856372363300,
+            "id_str": "743440851960012804",
+            "sizes": {
+                "large": {
+                    "h": 2048,
+                    "resize": "fit",
+                    "w": 2048
+                },
+                "small": {
+                    "h": 680,
+                    "resize": "fit",
+                    "w": 680
+                },
+                "medium": {
+                    "h": 1200,
+                    "resize": "fit",
+                    "w": 1200
+                },
+                "thumb": {
+                    "h": 150,
+                    "resize": "crop",
+                    "w": 150
+                }
+            },
+            "indices": [
+                139,
+                140
+            ],
+            "type": "photo",
+            "id": 743440851960012800,
+            "media_url": "http://pbs.twimg.com/media/ClE7hBSXIAQRbFm.jpg"
+        }]
+    },
+    "in_reply_to_screen_name": null,
+    "in_reply_to_user_id": null,
+    "retweet_count": 250,
+    "id_str": "743444370393800705",
+    "favorited": false,
+    "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "From Nairobi to Lagos to NYC we're excited to announce a $24M Series B from Zuckerberg's CZI https://t.co/ybRwkmN3lX https://t.co/gtpzJymxNf",
+        "is_quote_status": false,
+        "in_reply_to_status_id": null,
+        "id": 743440856372363300,
+        "favorite_count": 220,
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": [{
+                "url": "https://t.co/ybRwkmN3lX",
+                "indices": [
+                    93,
+                    116
+                ],
+                "expanded_url": "https://goo.gl/b5MH6D",
+                "display_url": "goo.gl/b5MH6D"
+            }],
+            "media": [{
+                "expanded_url": "http://twitter.com/Andela/status/743440856372363264/photo/1",
+                "display_url": "pic.twitter.com/gtpzJymxNf",
+                "url": "https://t.co/gtpzJymxNf",
+                "media_url_https": "https://pbs.twimg.com/media/ClE7hBSXIAQRbFm.jpg",
+                "id_str": "743440851960012804",
+                "sizes": {
+                    "large": {
+                        "h": 2048,
+                        "resize": "fit",
+                        "w": 2048
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "indices": [
+                    117,
+                    140
+                ],
+                "type": "photo",
+                "id": 743440851960012800,
+                "media_url": "http://pbs.twimg.com/media/ClE7hBSXIAQRbFm.jpg"
+            }]
+        },
+        "in_reply_to_screen_name": null,
+        "in_reply_to_user_id": null,
+        "retweet_count": 250,
+        "id_str": "743440856372363264",
+        "favorited": false,
+        "user": {
+            "follow_request_sent": false,
+            "has_extended_profile": false,
+            "profile_use_background_image": false,
+            "default_profile_image": false,
+            "id": 1378315837,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/444290151921881089/Eyj-MoGa.jpeg",
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/647544968777756672/-Ms_S6bh_normal.png",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http://t.co/Trbe2m6nlN",
+                        "indices": [
+                            0,
+                            22
+                        ],
+                        "expanded_url": "http://andela.com",
+                        "display_url": "andela.com"
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "followers_count": 9125,
+            "profile_sidebar_border_color": "FFFFFF",
+            "id_str": "1378315837",
+            "profile_background_color": "C0DEED",
+            "listed_count": 230,
+            "is_translation_enabled": false,
+            "utc_offset": -10800,
+            "statuses_count": 3618,
+            "description": "Extend your team with world-class developers. Andela accelerates your product roadmap with the top 1% of #tech talent from the African continent.",
+            "friends_count": 2233,
+            "location": "NYC | Lagos | Nairobi | SF",
+            "profile_link_color": "3359DF",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/647544968777756672/-Ms_S6bh_normal.png",
+            "following": false,
+            "geo_enabled": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1378315837/1443221708",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/444290151921881089/Eyj-MoGa.jpeg",
+            "screen_name": "Andela",
+            "lang": "en",
+            "profile_background_tile": false,
+            "favourites_count": 10148,
+            "name": "Andela",
+            "notifications": false,
+            "url": "http://t.co/Trbe2m6nlN",
+            "created_at": "Thu Apr 25 00:34:18 +0000 2013",
+            "contributors_enabled": false,
+            "time_zone": "Atlantic Time (Canada)",
+            "protected": false,
+            "default_profile": false,
+            "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "created_at": "Thu Jun 16 13:51:27 +0000 2016",
+        "in_reply_to_status_id_str": null,
+        "place": null,
+        "extended_entities": {
+            "media": [{
+                "expanded_url": "http://twitter.com/Andela/status/743440856372363264/photo/1",
+                "display_url": "pic.twitter.com/gtpzJymxNf",
+                "url": "https://t.co/gtpzJymxNf",
+                "media_url_https": "https://pbs.twimg.com/media/ClE7hBSXIAQRbFm.jpg",
+                "id_str": "743440851960012804",
+                "sizes": {
+                    "large": {
+                        "h": 2048,
+                        "resize": "fit",
+                        "w": 2048
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "indices": [
+                    117,
+                    140
+                ],
+                "type": "photo",
+                "id": 743440851960012800,
+                "media_url": "http://pbs.twimg.com/media/ClE7hBSXIAQRbFm.jpg"
+            }]
+        }
+    },
+    "user": {
+        "follow_request_sent": false,
+        "has_extended_profile": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 23430415,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "verified": false,
+        "profile_text_color": "666666",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "profile_sidebar_fill_color": "252429",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http://t.co/e8qRDh2wud",
+                    "indices": [
+                        0,
+                        22
+                    ],
+                    "expanded_url": "http://www.trendy.co.ke",
+                    "display_url": "trendy.co.ke"
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "followers_count": 340,
+        "profile_sidebar_border_color": "181A1E",
+        "id_str": "23430415",
+        "profile_background_color": "1A1B1F",
+        "listed_count": 8,
+        "is_translation_enabled": false,
+        "utc_offset": -18000,
+        "statuses_count": 931,
+        "description": "Lawyer, Entrepreneur, Christian, Son, Sibling and ..huge Liverpool fan!! #YNWA,",
+        "friends_count": 95,
+        "location": "Nairobi, Kenya",
+        "profile_link_color": "2F7BED",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "screen_name": "mwaniki",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 9,
+        "name": "mwaniki josh",
+        "notifications": false,
+        "url": "http://t.co/e8qRDh2wud",
+        "created_at": "Mon Mar 09 12:45:42 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+    },
+    "geo": null,
+    "in_reply_to_user_id_str": null,
+    "possibly_sensitive": false,
+    "lang": "en",
+    "created_at": "Thu Jun 16 14:05:25 +0000 2016",
+    "in_reply_to_status_id_str": null,
+    "place": null,
+    "extended_entities": {
+        "media": [{
+            "source_user_id": 1378315837,
+            "source_status_id_str": "743440856372363264",
+            "expanded_url": "http://twitter.com/Andela/status/743440856372363264/photo/1",
+            "display_url": "pic.twitter.com/gtpzJymxNf",
+            "url": "https://t.co/gtpzJymxNf",
+            "media_url_https": "https://pbs.twimg.com/media/ClE7hBSXIAQRbFm.jpg",
+            "source_user_id_str": "1378315837",
+            "source_status_id": 743440856372363300,
+            "id_str": "743440851960012804",
+            "sizes": {
+                "large": {
+                    "h": 2048,
+                    "resize": "fit",
+                    "w": 2048
+                },
+                "small": {
+                    "h": 680,
+                    "resize": "fit",
+                    "w": 680
+                },
+                "medium": {
+                    "h": 1200,
+                    "resize": "fit",
+                    "w": 1200
+                },
+                "thumb": {
+                    "h": 150,
+                    "resize": "crop",
+                    "w": 150
+                }
+            },
+            "indices": [
+                139,
+                140
+            ],
+            "type": "photo",
+            "id": 743440851960012800,
+            "media_url": "http://pbs.twimg.com/media/ClE7hBSXIAQRbFm.jpg"
+        }]
+    }
+}, {
+    "contributors": null,
+    "truncated": false,
+    "text": "RT @Ramgeedavis: Incase you're wondering why  Justice Mumbi Ngugi is trending check this via @ItsMutai https://t.co/dXHTaRD2HU",
+    "is_quote_status": false,
+    "in_reply_to_status_id": null,
+    "id": 722557862925504500,
+    "favorite_count": 0,
+    "source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for iΟS</a>",
+    "retweeted": false,
+    "coordinates": null,
+    "entities": {
+        "symbols": [],
+        "user_mentions": [{
+            "id": 224290159,
+            "indices": [
+                3,
+                15
+            ],
+            "id_str": "224290159",
+            "screen_name": "Ramgeedavis",
+            "name": "Ramgee#HackerWithin"
+        }, {
+            "id": 617196939,
+            "indices": [
+                93,
+                102
+            ],
+            "id_str": "617196939",
+            "screen_name": "ItsMutai",
+            "name": "Lord Mutai®"
+        }],
+        "hashtags": [],
+        "urls": [],
+        "media": [{
+            "source_user_id": 224290159,
+            "source_status_id_str": "722417821783834624",
+            "expanded_url": "http://twitter.com/Ramgeedavis/status/722417821783834624/photo/1",
+            "display_url": "pic.twitter.com/dXHTaRD2HU",
+            "url": "https://t.co/dXHTaRD2HU",
+            "media_url_https": "https://pbs.twimg.com/media/CgaLJn-XEAAJtWO.jpg",
+            "source_user_id_str": "224290159",
+            "source_status_id": 722417821783834600,
+            "id_str": "722417787705167872",
+            "sizes": {
+                "large": {
+                    "h": 559,
+                    "resize": "fit",
+                    "w": 720
+                },
+                "small": {
+                    "h": 264,
+                    "resize": "fit",
+                    "w": 340
+                },
+                "medium": {
+                    "h": 466,
+                    "resize": "fit",
+                    "w": 600
+                },
+                "thumb": {
+                    "h": 150,
+                    "resize": "crop",
+                    "w": 150
+                }
+            },
+            "indices": [
+                103,
+                126
+            ],
+            "type": "photo",
+            "id": 722417787705167900,
+            "media_url": "http://pbs.twimg.com/media/CgaLJn-XEAAJtWO.jpg"
+        }]
+    },
+    "in_reply_to_screen_name": null,
+    "in_reply_to_user_id": null,
+    "retweet_count": 22,
+    "id_str": "722557862925504512",
+    "favorited": false,
+    "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "Incase you're wondering why  Justice Mumbi Ngugi is trending check this via @ItsMutai https://t.co/dXHTaRD2HU",
+        "is_quote_status": false,
+        "in_reply_to_status_id": null,
+        "id": 722417821783834600,
+        "favorite_count": 6,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [{
+                "id": 617196939,
+                "indices": [
+                    76,
+                    85
+                ],
+                "id_str": "617196939",
+                "screen_name": "ItsMutai",
+                "name": "Lord Mutai®"
+            }],
+            "hashtags": [],
+            "urls": [],
+            "media": [{
+                "expanded_url": "http://twitter.com/Ramgeedavis/status/722417821783834624/photo/1",
+                "display_url": "pic.twitter.com/dXHTaRD2HU",
+                "url": "https://t.co/dXHTaRD2HU",
+                "media_url_https": "https://pbs.twimg.com/media/CgaLJn-XEAAJtWO.jpg",
+                "id_str": "722417787705167872",
+                "sizes": {
+                    "large": {
+                        "h": 559,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 264,
+                        "resize": "fit",
+                        "w": 340
+                    },
+                    "medium": {
+                        "h": 466,
+                        "resize": "fit",
+                        "w": 600
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "indices": [
+                    86,
+                    109
+                ],
+                "type": "photo",
+                "id": 722417787705167900,
+                "media_url": "http://pbs.twimg.com/media/CgaLJn-XEAAJtWO.jpg"
+            }]
+        },
+        "in_reply_to_screen_name": null,
+        "in_reply_to_user_id": null,
+        "retweet_count": 22,
+        "id_str": "722417821783834624",
+        "favorited": false,
+        "user": {
+            "follow_request_sent": false,
+            "has_extended_profile": true,
+            "profile_use_background_image": true,
+            "default_profile_image": false,
+            "id": 224290159,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/473781465147138050/L-bPOkqb.jpeg",
+            "verified": false,
+            "profile_text_color": "663B12",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/745722196652359680/vLTPLp4V_normal.jpg",
+            "profile_sidebar_fill_color": "DAECF4",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/Omj1MK2FY1",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "expanded_url": "http://www.facebook.com/Ramgee44",
+                        "display_url": "facebook.com/Ramgee44"
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "followers_count": 11670,
+            "profile_sidebar_border_color": "FFFFFF",
+            "id_str": "224290159",
+            "profile_background_color": "C6E2EE",
+            "listed_count": 127,
+            "is_translation_enabled": false,
+            "utc_offset": 10800,
+            "statuses_count": 68855,
+            "description": "Programmer by day, Gamer by night, Moderator by demand of those around me |mail me admin@waluitech.co.ke | Muhoroni Youth fan",
+            "friends_count": 5215,
+            "location": "Kuala Lumpur, Wilayah Persekut",
+            "profile_link_color": "3B94D9",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/745722196652359680/vLTPLp4V_normal.jpg",
+            "following": false,
+            "geo_enabled": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/224290159/1442916280",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/473781465147138050/L-bPOkqb.jpeg",
+            "screen_name": "Ramgeedavis",
+            "lang": "en",
+            "profile_background_tile": true,
+            "favourites_count": 18633,
+            "name": "Ramgee#HackerWithin",
+            "notifications": false,
+            "url": "https://t.co/Omj1MK2FY1",
+            "created_at": "Wed Dec 08 16:43:07 +0000 2010",
+            "contributors_enabled": false,
+            "time_zone": "Nairobi",
+            "protected": false,
+            "default_profile": false,
+            "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "created_at": "Tue Apr 19 13:33:25 +0000 2016",
+        "in_reply_to_status_id_str": null,
+        "place": null,
+        "extended_entities": {
+            "media": [{
+                "expanded_url": "http://twitter.com/Ramgeedavis/status/722417821783834624/photo/1",
+                "display_url": "pic.twitter.com/dXHTaRD2HU",
+                "url": "https://t.co/dXHTaRD2HU",
+                "media_url_https": "https://pbs.twimg.com/media/CgaLJn-XEAAJtWO.jpg",
+                "id_str": "722417787705167872",
+                "sizes": {
+                    "large": {
+                        "h": 559,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 264,
+                        "resize": "fit",
+                        "w": 340
+                    },
+                    "medium": {
+                        "h": 466,
+                        "resize": "fit",
+                        "w": 600
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "indices": [
+                    86,
+                    109
+                ],
+                "type": "photo",
+                "id": 722417787705167900,
+                "media_url": "http://pbs.twimg.com/media/CgaLJn-XEAAJtWO.jpg"
+            }]
+        }
+    },
+    "user": {
+        "follow_request_sent": false,
+        "has_extended_profile": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 23430415,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "verified": false,
+        "profile_text_color": "666666",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "profile_sidebar_fill_color": "252429",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http://t.co/e8qRDh2wud",
+                    "indices": [
+                        0,
+                        22
+                    ],
+                    "expanded_url": "http://www.trendy.co.ke",
+                    "display_url": "trendy.co.ke"
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "followers_count": 340,
+        "profile_sidebar_border_color": "181A1E",
+        "id_str": "23430415",
+        "profile_background_color": "1A1B1F",
+        "listed_count": 8,
+        "is_translation_enabled": false,
+        "utc_offset": -18000,
+        "statuses_count": 931,
+        "description": "Lawyer, Entrepreneur, Christian, Son, Sibling and ..huge Liverpool fan!! #YNWA,",
+        "friends_count": 95,
+        "location": "Nairobi, Kenya",
+        "profile_link_color": "2F7BED",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "screen_name": "mwaniki",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 9,
+        "name": "mwaniki josh",
+        "notifications": false,
+        "url": "http://t.co/e8qRDh2wud",
+        "created_at": "Mon Mar 09 12:45:42 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+    },
+    "geo": null,
+    "in_reply_to_user_id_str": null,
+    "possibly_sensitive": false,
+    "lang": "en",
+    "created_at": "Tue Apr 19 22:49:53 +0000 2016",
+    "in_reply_to_status_id_str": null,
+    "place": null,
+    "extended_entities": {
+        "media": [{
+            "source_user_id": 224290159,
+            "source_status_id_str": "722417821783834624",
+            "expanded_url": "http://twitter.com/Ramgeedavis/status/722417821783834624/photo/1",
+            "display_url": "pic.twitter.com/dXHTaRD2HU",
+            "url": "https://t.co/dXHTaRD2HU",
+            "media_url_https": "https://pbs.twimg.com/media/CgaLJn-XEAAJtWO.jpg",
+            "source_user_id_str": "224290159",
+            "source_status_id": 722417821783834600,
+            "id_str": "722417787705167872",
+            "sizes": {
+                "large": {
+                    "h": 559,
+                    "resize": "fit",
+                    "w": 720
+                },
+                "small": {
+                    "h": 264,
+                    "resize": "fit",
+                    "w": 340
+                },
+                "medium": {
+                    "h": 466,
+                    "resize": "fit",
+                    "w": 600
+                },
+                "thumb": {
+                    "h": 150,
+                    "resize": "crop",
+                    "w": 150
+                }
+            },
+            "indices": [
+                103,
+                126
+            ],
+            "type": "photo",
+            "id": 722417787705167900,
+            "media_url": "http://pbs.twimg.com/media/CgaLJn-XEAAJtWO.jpg"
+        }]
+    }
+}, {
+    "contributors": null,
+    "truncated": false,
+    "text": "RT @Andela_Kenya: Calling out to female software developers - @iHub blogpost https://t.co/KGD3253QbA  #opportunities https://t.co/mLuzyHM3NI",
+    "is_quote_status": false,
+    "in_reply_to_status_id": null,
+    "id": 707654957844054000,
+    "favorite_count": 0,
+    "source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for iΟS</a>",
+    "retweeted": false,
+    "coordinates": null,
+    "entities": {
+        "symbols": [],
+        "user_mentions": [{
+            "id": 4580535795,
+            "indices": [
+                3,
+                16
+            ],
+            "id_str": "4580535795",
+            "screen_name": "Andela_Kenya",
+            "name": "Andela Kenya"
+        }, {
+            "id": 110121475,
+            "indices": [
+                62,
+                67
+            ],
+            "id_str": "110121475",
+            "screen_name": "iHub",
+            "name": "iHub"
+        }],
+        "hashtags": [{
+            "indices": [
+                102,
+                116
+            ],
+            "text": "opportunities"
+        }],
+        "urls": [{
+            "url": "https://t.co/KGD3253QbA",
+            "indices": [
+                77,
+                100
+            ],
+            "expanded_url": "http://bit.ly/1TswoZK",
+            "display_url": "bit.ly/1TswoZK"
+        }],
+        "media": [{
+            "source_user_id": 4580535795,
+            "source_status_id_str": "707559359526473728",
+            "expanded_url": "http://twitter.com/Andela_Kenya/status/707559359526473728/photo/1",
+            "display_url": "pic.twitter.com/mLuzyHM3NI",
+            "url": "https://t.co/mLuzyHM3NI",
+            "media_url_https": "https://pbs.twimg.com/media/CdHBfJ-WEAAgE8V.jpg",
+            "source_user_id_str": "4580535795",
+            "source_status_id": 707559359526473700,
+            "id_str": "707559357471395840",
+            "sizes": {
+                "large": {
+                    "h": 1536,
+                    "resize": "fit",
+                    "w": 1024
+                },
+                "small": {
+                    "h": 510,
+                    "resize": "fit",
+                    "w": 340
+                },
+                "medium": {
+                    "h": 900,
+                    "resize": "fit",
+                    "w": 600
+                },
+                "thumb": {
+                    "h": 150,
+                    "resize": "crop",
+                    "w": 150
+                }
+            },
+            "indices": [
+                117,
+                140
+            ],
+            "type": "photo",
+            "id": 707559357471395800,
+            "media_url": "http://pbs.twimg.com/media/CdHBfJ-WEAAgE8V.jpg"
+        }]
+    },
+    "in_reply_to_screen_name": null,
+    "in_reply_to_user_id": null,
+    "retweet_count": 3,
+    "id_str": "707654957844054016",
+    "favorited": false,
+    "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "Calling out to female software developers - @iHub blogpost https://t.co/KGD3253QbA  #opportunities https://t.co/mLuzyHM3NI",
+        "is_quote_status": false,
+        "in_reply_to_status_id": null,
+        "id": 707559359526473700,
+        "favorite_count": 1,
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [{
+                "id": 110121475,
+                "indices": [
+                    44,
+                    49
+                ],
+                "id_str": "110121475",
+                "screen_name": "iHub",
+                "name": "iHub"
+            }],
+            "hashtags": [{
+                "indices": [
+                    84,
+                    98
+                ],
+                "text": "opportunities"
+            }],
+            "urls": [{
+                "url": "https://t.co/KGD3253QbA",
+                "indices": [
+                    59,
+                    82
+                ],
+                "expanded_url": "http://bit.ly/1TswoZK",
+                "display_url": "bit.ly/1TswoZK"
+            }],
+            "media": [{
+                "expanded_url": "http://twitter.com/Andela_Kenya/status/707559359526473728/photo/1",
+                "display_url": "pic.twitter.com/mLuzyHM3NI",
+                "url": "https://t.co/mLuzyHM3NI",
+                "media_url_https": "https://pbs.twimg.com/media/CdHBfJ-WEAAgE8V.jpg",
+                "id_str": "707559357471395840",
+                "sizes": {
+                    "large": {
+                        "h": 1536,
+                        "resize": "fit",
+                        "w": 1024
+                    },
+                    "small": {
+                        "h": 510,
+                        "resize": "fit",
+                        "w": 340
+                    },
+                    "medium": {
+                        "h": 900,
+                        "resize": "fit",
+                        "w": 600
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "indices": [
+                    99,
+                    122
+                ],
+                "type": "photo",
+                "id": 707559357471395800,
+                "media_url": "http://pbs.twimg.com/media/CdHBfJ-WEAAgE8V.jpg"
+            }]
+        },
+        "in_reply_to_screen_name": null,
+        "in_reply_to_user_id": null,
+        "retweet_count": 3,
+        "id_str": "707559359526473728",
+        "favorited": false,
+        "user": {
+            "follow_request_sent": false,
+            "has_extended_profile": false,
+            "profile_use_background_image": false,
+            "default_profile_image": false,
+            "id": 4580535795,
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "verified": false,
+            "profile_text_color": "000000",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/689851478706626561/yaVQgTCw_normal.png",
+            "profile_sidebar_fill_color": "000000",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/1k25knkMDR",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "expanded_url": "http://kenya.andela.com",
+                        "display_url": "kenya.andela.com"
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "followers_count": 581,
+            "profile_sidebar_border_color": "000000",
+            "id_str": "4580535795",
+            "profile_background_color": "000000",
+            "listed_count": 25,
+            "is_translation_enabled": false,
+            "utc_offset": 10800,
+            "statuses_count": 345,
+            "description": "Building a world class developer community in Kenya.",
+            "friends_count": 143,
+            "location": "Nairobi, Kenya",
+            "profile_link_color": "3359DF",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/689851478706626561/yaVQgTCw_normal.png",
+            "following": true,
+            "geo_enabled": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/4580535795/1453308317",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "screen_name": "Andela_Kenya",
+            "lang": "en",
+            "profile_background_tile": false,
+            "favourites_count": 76,
+            "name": "Andela Kenya",
+            "notifications": false,
+            "url": "https://t.co/1k25knkMDR",
+            "created_at": "Wed Dec 23 17:22:41 +0000 2015",
+            "contributors_enabled": false,
+            "time_zone": "Nairobi",
+            "protected": false,
+            "default_profile": false,
+            "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "created_at": "Wed Mar 09 13:31:11 +0000 2016",
+        "in_reply_to_status_id_str": null,
+        "place": null,
+        "extended_entities": {
+            "media": [{
+                "expanded_url": "http://twitter.com/Andela_Kenya/status/707559359526473728/photo/1",
+                "display_url": "pic.twitter.com/mLuzyHM3NI",
+                "url": "https://t.co/mLuzyHM3NI",
+                "media_url_https": "https://pbs.twimg.com/media/CdHBfJ-WEAAgE8V.jpg",
+                "id_str": "707559357471395840",
+                "sizes": {
+                    "large": {
+                        "h": 1536,
+                        "resize": "fit",
+                        "w": 1024
+                    },
+                    "small": {
+                        "h": 510,
+                        "resize": "fit",
+                        "w": 340
+                    },
+                    "medium": {
+                        "h": 900,
+                        "resize": "fit",
+                        "w": 600
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "indices": [
+                    99,
+                    122
+                ],
+                "type": "photo",
+                "id": 707559357471395800,
+                "media_url": "http://pbs.twimg.com/media/CdHBfJ-WEAAgE8V.jpg"
+            }]
+        }
+    },
+    "user": {
+        "follow_request_sent": false,
+        "has_extended_profile": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 23430415,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "verified": false,
+        "profile_text_color": "666666",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "profile_sidebar_fill_color": "252429",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http://t.co/e8qRDh2wud",
+                    "indices": [
+                        0,
+                        22
+                    ],
+                    "expanded_url": "http://www.trendy.co.ke",
+                    "display_url": "trendy.co.ke"
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "followers_count": 340,
+        "profile_sidebar_border_color": "181A1E",
+        "id_str": "23430415",
+        "profile_background_color": "1A1B1F",
+        "listed_count": 8,
+        "is_translation_enabled": false,
+        "utc_offset": -18000,
+        "statuses_count": 931,
+        "description": "Lawyer, Entrepreneur, Christian, Son, Sibling and ..huge Liverpool fan!! #YNWA,",
+        "friends_count": 95,
+        "location": "Nairobi, Kenya",
+        "profile_link_color": "2F7BED",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "screen_name": "mwaniki",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 9,
+        "name": "mwaniki josh",
+        "notifications": false,
+        "url": "http://t.co/e8qRDh2wud",
+        "created_at": "Mon Mar 09 12:45:42 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+    },
+    "geo": null,
+    "in_reply_to_user_id_str": null,
+    "possibly_sensitive": false,
+    "lang": "en",
+    "created_at": "Wed Mar 09 19:51:04 +0000 2016",
+    "in_reply_to_status_id_str": null,
+    "place": null,
+    "extended_entities": {
+        "media": [{
+            "source_user_id": 4580535795,
+            "source_status_id_str": "707559359526473728",
+            "expanded_url": "http://twitter.com/Andela_Kenya/status/707559359526473728/photo/1",
+            "display_url": "pic.twitter.com/mLuzyHM3NI",
+            "url": "https://t.co/mLuzyHM3NI",
+            "media_url_https": "https://pbs.twimg.com/media/CdHBfJ-WEAAgE8V.jpg",
+            "source_user_id_str": "4580535795",
+            "source_status_id": 707559359526473700,
+            "id_str": "707559357471395840",
+            "sizes": {
+                "large": {
+                    "h": 1536,
+                    "resize": "fit",
+                    "w": 1024
+                },
+                "small": {
+                    "h": 510,
+                    "resize": "fit",
+                    "w": 340
+                },
+                "medium": {
+                    "h": 900,
+                    "resize": "fit",
+                    "w": 600
+                },
+                "thumb": {
+                    "h": 150,
+                    "resize": "crop",
+                    "w": 150
+                }
+            },
+            "indices": [
+                117,
+                140
+            ],
+            "type": "photo",
+            "id": 707559357471395800,
+            "media_url": "http://pbs.twimg.com/media/CdHBfJ-WEAAgE8V.jpg"
+        }]
+    }
+}, {
+    "contributors": null,
+    "truncated": false,
+    "text": "@DStv_Kenya hey…your ussd *423# isn’t working. How else can I check my account Info?",
+    "is_quote_status": false,
+    "in_reply_to_status_id": null,
+    "id": 707277631327174700,
+    "favorite_count": 0,
+    "source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for iΟS</a>",
+    "retweeted": false,
+    "coordinates": null,
+    "entities": {
+        "symbols": [],
+        "user_mentions": [{
+            "id": 395194959,
+            "indices": [
+                0,
+                11
+            ],
+            "id_str": "395194959",
+            "screen_name": "DStv_Kenya",
+            "name": "DStv Kenya"
+        }],
+        "hashtags": [],
+        "urls": []
+    },
+    "in_reply_to_screen_name": "DStv_Kenya",
+    "in_reply_to_user_id": 395194959,
+    "retweet_count": 0,
+    "id_str": "707277631327174656",
+    "favorited": false,
+    "user": {
+        "follow_request_sent": false,
+        "has_extended_profile": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 23430415,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "verified": false,
+        "profile_text_color": "666666",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "profile_sidebar_fill_color": "252429",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http://t.co/e8qRDh2wud",
+                    "indices": [
+                        0,
+                        22
+                    ],
+                    "expanded_url": "http://www.trendy.co.ke",
+                    "display_url": "trendy.co.ke"
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "followers_count": 340,
+        "profile_sidebar_border_color": "181A1E",
+        "id_str": "23430415",
+        "profile_background_color": "1A1B1F",
+        "listed_count": 8,
+        "is_translation_enabled": false,
+        "utc_offset": -18000,
+        "statuses_count": 931,
+        "description": "Lawyer, Entrepreneur, Christian, Son, Sibling and ..huge Liverpool fan!! #YNWA,",
+        "friends_count": 95,
+        "location": "Nairobi, Kenya",
+        "profile_link_color": "2F7BED",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "screen_name": "mwaniki",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 9,
+        "name": "mwaniki josh",
+        "notifications": false,
+        "url": "http://t.co/e8qRDh2wud",
+        "created_at": "Mon Mar 09 12:45:42 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+    },
+    "geo": null,
+    "in_reply_to_user_id_str": "395194959",
+    "lang": "en",
+    "created_at": "Tue Mar 08 18:51:42 +0000 2016",
+    "in_reply_to_status_id_str": null,
+    "place": null
+}, {
+    "contributors": null,
+    "truncated": false,
+    "text": "RT @ImTheManHimself: Top 2 shooters of all time. 1.Steph curry . 2. Police",
+    "is_quote_status": false,
+    "in_reply_to_status_id": null,
+    "id": 703961356253438000,
+    "favorite_count": 0,
+    "source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for iΟS</a>",
+    "retweeted": false,
+    "coordinates": null,
+    "entities": {
+        "symbols": [],
+        "user_mentions": [{
+            "id": 169698893,
+            "indices": [
+                3,
+                19
+            ],
+            "id_str": "169698893",
+            "screen_name": "ImTheManHimself",
+            "name": "PowerCircle"
+        }],
+        "hashtags": [],
+        "urls": []
+    },
+    "in_reply_to_screen_name": null,
+    "in_reply_to_user_id": null,
+    "retweet_count": 9,
+    "id_str": "703961356253437952",
+    "favorited": false,
+    "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "Top 2 shooters of all time. 1.Steph curry . 2. Police",
+        "is_quote_status": false,
+        "in_reply_to_status_id": null,
+        "id": 703960523071684600,
+        "favorite_count": 2,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "in_reply_to_screen_name": null,
+        "in_reply_to_user_id": null,
+        "retweet_count": 9,
+        "id_str": "703960523071684609",
+        "favorited": false,
+        "user": {
+            "follow_request_sent": false,
+            "has_extended_profile": false,
+            "profile_use_background_image": true,
+            "default_profile_image": false,
+            "id": 169698893,
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "verified": false,
+            "profile_text_color": "333333",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/744669730691289088/vye258qb_normal.jpg",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/rlC0P9aquL",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "expanded_url": "http://powercirclepc.com",
+                        "display_url": "powercirclepc.com"
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "followers_count": 5691,
+            "profile_sidebar_border_color": "C0DEED",
+            "id_str": "169698893",
+            "profile_background_color": "C0DEED",
+            "listed_count": 31,
+            "is_translation_enabled": false,
+            "utc_offset": -14400,
+            "statuses_count": 113968,
+            "description": "I throw Concerts, I Give back to my State, n I don't trust humans because everyone makes mistakes #Founder of #PowerCircle #URIGrad #Leo Bos ✈️ RI is home",
+            "friends_count": 579,
+            "location": "PowerCirclepc@gmail.com",
+            "profile_link_color": "0084B4",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/744669730691289088/vye258qb_normal.jpg",
+            "following": false,
+            "geo_enabled": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/169698893/1419576069",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "screen_name": "ImTheManHimself",
+            "lang": "en",
+            "profile_background_tile": false,
+            "favourites_count": 2405,
+            "name": "PowerCircle",
+            "notifications": false,
+            "url": "https://t.co/rlC0P9aquL",
+            "created_at": "Thu Jul 22 23:40:05 +0000 2010",
+            "contributors_enabled": false,
+            "time_zone": "Eastern Time (US & Canada)",
+            "protected": false,
+            "default_profile": true,
+            "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "lang": "en",
+        "created_at": "Sun Feb 28 15:10:42 +0000 2016",
+        "in_reply_to_status_id_str": null,
+        "place": null
+    },
+    "user": {
+        "follow_request_sent": false,
+        "has_extended_profile": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 23430415,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "verified": false,
+        "profile_text_color": "666666",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "profile_sidebar_fill_color": "252429",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http://t.co/e8qRDh2wud",
+                    "indices": [
+                        0,
+                        22
+                    ],
+                    "expanded_url": "http://www.trendy.co.ke",
+                    "display_url": "trendy.co.ke"
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "followers_count": 340,
+        "profile_sidebar_border_color": "181A1E",
+        "id_str": "23430415",
+        "profile_background_color": "1A1B1F",
+        "listed_count": 8,
+        "is_translation_enabled": false,
+        "utc_offset": -18000,
+        "statuses_count": 931,
+        "description": "Lawyer, Entrepreneur, Christian, Son, Sibling and ..huge Liverpool fan!! #YNWA,",
+        "friends_count": 95,
+        "location": "Nairobi, Kenya",
+        "profile_link_color": "2F7BED",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "screen_name": "mwaniki",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 9,
+        "name": "mwaniki josh",
+        "notifications": false,
+        "url": "http://t.co/e8qRDh2wud",
+        "created_at": "Mon Mar 09 12:45:42 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+    },
+    "geo": null,
+    "in_reply_to_user_id_str": null,
+    "lang": "en",
+    "created_at": "Sun Feb 28 15:14:00 +0000 2016",
+    "in_reply_to_status_id_str": null,
+    "place": null
+}, {
+    "contributors": null,
+    "truncated": false,
+    "text": "RT @iHub: @Andela_Kenya is still looking for applicants to its 6th cohort. Apply to their world-class programme— https://t.co/WD8qsJoor3 #O…",
+    "is_quote_status": false,
+    "in_reply_to_status_id": null,
+    "id": 702781929263738900,
+    "favorite_count": 0,
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "retweeted": false,
+    "coordinates": null,
+    "entities": {
+        "symbols": [],
+        "user_mentions": [{
+            "id": 110121475,
+            "indices": [
+                3,
+                8
+            ],
+            "id_str": "110121475",
+            "screen_name": "iHub",
+            "name": "iHub"
+        }, {
+            "id": 4580535795,
+            "indices": [
+                10,
+                23
+            ],
+            "id_str": "4580535795",
+            "screen_name": "Andela_Kenya",
+            "name": "Andela Kenya"
+        }],
+        "hashtags": [{
+            "indices": [
+                137,
+                140
+            ],
+            "text": "OppsViaiHub"
+        }],
+        "urls": [{
+            "url": "https://t.co/WD8qsJoor3",
+            "indices": [
+                113,
+                136
+            ],
+            "expanded_url": "http://bit.ly/1QvjrfB",
+            "display_url": "bit.ly/1QvjrfB"
+        }]
+    },
+    "in_reply_to_screen_name": null,
+    "in_reply_to_user_id": null,
+    "retweet_count": 2,
+    "id_str": "702781929263738880",
+    "favorited": false,
+    "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "@Andela_Kenya is still looking for applicants to its 6th cohort. Apply to their world-class programme— https://t.co/WD8qsJoor3 #OppsViaiHub",
+        "is_quote_status": false,
+        "in_reply_to_status_id": null,
+        "id": 702721209721446400,
+        "favorite_count": 0,
+        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [{
+                "id": 4580535795,
+                "indices": [
+                    0,
+                    13
+                ],
+                "id_str": "4580535795",
+                "screen_name": "Andela_Kenya",
+                "name": "Andela Kenya"
+            }],
+            "hashtags": [{
+                "indices": [
+                    127,
+                    139
+                ],
+                "text": "OppsViaiHub"
+            }],
+            "urls": [{
+                "url": "https://t.co/WD8qsJoor3",
+                "indices": [
+                    103,
+                    126
+                ],
+                "expanded_url": "http://bit.ly/1QvjrfB",
+                "display_url": "bit.ly/1QvjrfB"
+            }]
+        },
+        "in_reply_to_screen_name": "Andela_Kenya",
+        "in_reply_to_user_id": 4580535795,
+        "retweet_count": 2,
+        "id_str": "702721209721446401",
+        "favorited": false,
+        "user": {
+            "follow_request_sent": false,
+            "has_extended_profile": false,
+            "profile_use_background_image": false,
+            "default_profile_image": false,
+            "id": 110121475,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/293122448/wallpaper.jpg",
+            "verified": true,
+            "profile_text_color": "CCCCCC",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/567613445902594048/h579eGmC_normal.jpeg",
+            "profile_sidebar_fill_color": "000000",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/eFtICWBMRM",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "expanded_url": "http://ihub.co.ke",
+                        "display_url": "ihub.co.ke"
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "followers_count": 149788,
+            "profile_sidebar_border_color": "000000",
+            "id_str": "110121475",
+            "profile_background_color": "000000",
+            "listed_count": 960,
+            "is_translation_enabled": false,
+            "utc_offset": 10800,
+            "statuses_count": 11488,
+            "description": "Nairobi's Innovation Hub.",
+            "friends_count": 1947,
+            "location": "Nairobi, Kenya",
+            "profile_link_color": "9C9C9C",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/567613445902594048/h579eGmC_normal.jpeg",
+            "following": false,
+            "geo_enabled": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/110121475/1433236939",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/293122448/wallpaper.jpg",
+            "screen_name": "iHub",
+            "lang": "en",
+            "profile_background_tile": true,
+            "favourites_count": 572,
+            "name": "iHub",
+            "notifications": false,
+            "url": "https://t.co/eFtICWBMRM",
+            "created_at": "Sun Jan 31 12:12:13 +0000 2010",
+            "contributors_enabled": false,
+            "time_zone": "Nairobi",
+            "protected": false,
+            "default_profile": false,
+            "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": "4580535795",
+        "possibly_sensitive": false,
+        "lang": "en",
+        "created_at": "Thu Feb 25 05:06:06 +0000 2016",
+        "in_reply_to_status_id_str": null,
+        "place": null
+    },
+    "user": {
+        "follow_request_sent": false,
+        "has_extended_profile": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 23430415,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "verified": false,
+        "profile_text_color": "666666",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "profile_sidebar_fill_color": "252429",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http://t.co/e8qRDh2wud",
+                    "indices": [
+                        0,
+                        22
+                    ],
+                    "expanded_url": "http://www.trendy.co.ke",
+                    "display_url": "trendy.co.ke"
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "followers_count": 340,
+        "profile_sidebar_border_color": "181A1E",
+        "id_str": "23430415",
+        "profile_background_color": "1A1B1F",
+        "listed_count": 8,
+        "is_translation_enabled": false,
+        "utc_offset": -18000,
+        "statuses_count": 931,
+        "description": "Lawyer, Entrepreneur, Christian, Son, Sibling and ..huge Liverpool fan!! #YNWA,",
+        "friends_count": 95,
+        "location": "Nairobi, Kenya",
+        "profile_link_color": "2F7BED",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "screen_name": "mwaniki",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 9,
+        "name": "mwaniki josh",
+        "notifications": false,
+        "url": "http://t.co/e8qRDh2wud",
+        "created_at": "Mon Mar 09 12:45:42 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+    },
+    "geo": null,
+    "in_reply_to_user_id_str": null,
+    "possibly_sensitive": false,
+    "lang": "en",
+    "created_at": "Thu Feb 25 09:07:23 +0000 2016",
+    "in_reply_to_status_id_str": null,
+    "place": null
+}, {
+    "contributors": null,
+    "truncated": false,
+    "text": "RT @Andela: Excited to be ranked the #2 hottest #startup in #NYC! Also.. we're #hiring! https://t.co/vHdNWRziH8 https://t.co/D0DFSn1YMY",
+    "is_quote_status": false,
+    "in_reply_to_status_id": null,
+    "id": 702781398793322500,
+    "favorite_count": 0,
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "retweeted": false,
+    "coordinates": null,
+    "entities": {
+        "symbols": [],
+        "user_mentions": [{
+            "id": 1378315837,
+            "indices": [
+                3,
+                10
+            ],
+            "id_str": "1378315837",
+            "screen_name": "Andela",
+            "name": "Andela"
+        }],
+        "hashtags": [{
+            "indices": [
+                48,
+                56
+            ],
+            "text": "startup"
+        }, {
+            "indices": [
+                60,
+                64
+            ],
+            "text": "NYC"
+        }, {
+            "indices": [
+                79,
+                86
+            ],
+            "text": "hiring"
+        }],
+        "urls": [{
+            "url": "https://t.co/vHdNWRziH8",
+            "indices": [
+                88,
+                111
+            ],
+            "expanded_url": "http://bit.ly/1PGJL22",
+            "display_url": "bit.ly/1PGJL22"
+        }],
+        "media": [{
+            "source_user_id": 1378315837,
+            "source_status_id_str": "698144858654052352",
+            "expanded_url": "http://twitter.com/Andela/status/698144858654052352/photo/1",
+            "display_url": "pic.twitter.com/D0DFSn1YMY",
+            "url": "https://t.co/D0DFSn1YMY",
+            "media_url_https": "https://pbs.twimg.com/media/CbBPDLuWAAAq-b-.jpg",
+            "source_user_id_str": "1378315837",
+            "source_status_id": 698144858654052400,
+            "id_str": "698144858347798528",
+            "sizes": {
+                "large": {
+                    "h": 1750,
+                    "resize": "fit",
+                    "w": 1000
+                },
+                "small": {
+                    "h": 595,
+                    "resize": "fit",
+                    "w": 340
+                },
+                "medium": {
+                    "h": 1050,
+                    "resize": "fit",
+                    "w": 600
+                },
+                "thumb": {
+                    "h": 150,
+                    "resize": "crop",
+                    "w": 150
+                }
+            },
+            "indices": [
+                112,
+                135
+            ],
+            "type": "photo",
+            "id": 698144858347798500,
+            "media_url": "http://pbs.twimg.com/media/CbBPDLuWAAAq-b-.jpg"
+        }]
+    },
+    "in_reply_to_screen_name": null,
+    "in_reply_to_user_id": null,
+    "retweet_count": 57,
+    "id_str": "702781398793322496",
+    "favorited": false,
+    "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "Excited to be ranked the #2 hottest #startup in #NYC! Also.. we're #hiring! https://t.co/vHdNWRziH8 https://t.co/D0DFSn1YMY",
+        "is_quote_status": false,
+        "in_reply_to_status_id": null,
+        "id": 698144858654052400,
+        "favorite_count": 69,
+        "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [{
+                "indices": [
+                    36,
+                    44
+                ],
+                "text": "startup"
+            }, {
+                "indices": [
+                    48,
+                    52
+                ],
+                "text": "NYC"
+            }, {
+                "indices": [
+                    67,
+                    74
+                ],
+                "text": "hiring"
+            }],
+            "urls": [{
+                "url": "https://t.co/vHdNWRziH8",
+                "indices": [
+                    76,
+                    99
+                ],
+                "expanded_url": "http://bit.ly/1PGJL22",
+                "display_url": "bit.ly/1PGJL22"
+            }],
+            "media": [{
+                "expanded_url": "http://twitter.com/Andela/status/698144858654052352/photo/1",
+                "display_url": "pic.twitter.com/D0DFSn1YMY",
+                "url": "https://t.co/D0DFSn1YMY",
+                "media_url_https": "https://pbs.twimg.com/media/CbBPDLuWAAAq-b-.jpg",
+                "id_str": "698144858347798528",
+                "sizes": {
+                    "large": {
+                        "h": 1750,
+                        "resize": "fit",
+                        "w": 1000
+                    },
+                    "small": {
+                        "h": 595,
+                        "resize": "fit",
+                        "w": 340
+                    },
+                    "medium": {
+                        "h": 1050,
+                        "resize": "fit",
+                        "w": 600
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "indices": [
+                    100,
+                    123
+                ],
+                "type": "photo",
+                "id": 698144858347798500,
+                "media_url": "http://pbs.twimg.com/media/CbBPDLuWAAAq-b-.jpg"
+            }]
+        },
+        "in_reply_to_screen_name": null,
+        "in_reply_to_user_id": null,
+        "retweet_count": 57,
+        "id_str": "698144858654052352",
+        "favorited": false,
+        "user": {
+            "follow_request_sent": false,
+            "has_extended_profile": false,
+            "profile_use_background_image": false,
+            "default_profile_image": false,
+            "id": 1378315837,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/444290151921881089/Eyj-MoGa.jpeg",
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/647544968777756672/-Ms_S6bh_normal.png",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http://t.co/Trbe2m6nlN",
+                        "indices": [
+                            0,
+                            22
+                        ],
+                        "expanded_url": "http://andela.com",
+                        "display_url": "andela.com"
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "followers_count": 9125,
+            "profile_sidebar_border_color": "FFFFFF",
+            "id_str": "1378315837",
+            "profile_background_color": "C0DEED",
+            "listed_count": 230,
+            "is_translation_enabled": false,
+            "utc_offset": -10800,
+            "statuses_count": 3618,
+            "description": "Extend your team with world-class developers. Andela accelerates your product roadmap with the top 1% of #tech talent from the African continent.",
+            "friends_count": 2233,
+            "location": "NYC | Lagos | Nairobi | SF",
+            "profile_link_color": "3359DF",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/647544968777756672/-Ms_S6bh_normal.png",
+            "following": false,
+            "geo_enabled": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1378315837/1443221708",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/444290151921881089/Eyj-MoGa.jpeg",
+            "screen_name": "Andela",
+            "lang": "en",
+            "profile_background_tile": false,
+            "favourites_count": 10148,
+            "name": "Andela",
+            "notifications": false,
+            "url": "http://t.co/Trbe2m6nlN",
+            "created_at": "Thu Apr 25 00:34:18 +0000 2013",
+            "contributors_enabled": false,
+            "time_zone": "Atlantic Time (Canada)",
+            "protected": false,
+            "default_profile": false,
+            "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "created_at": "Fri Feb 12 14:01:19 +0000 2016",
+        "in_reply_to_status_id_str": null,
+        "place": null,
+        "extended_entities": {
+            "media": [{
+                "expanded_url": "http://twitter.com/Andela/status/698144858654052352/photo/1",
+                "display_url": "pic.twitter.com/D0DFSn1YMY",
+                "url": "https://t.co/D0DFSn1YMY",
+                "media_url_https": "https://pbs.twimg.com/media/CbBPDLuWAAAq-b-.jpg",
+                "id_str": "698144858347798528",
+                "sizes": {
+                    "large": {
+                        "h": 1750,
+                        "resize": "fit",
+                        "w": 1000
+                    },
+                    "small": {
+                        "h": 595,
+                        "resize": "fit",
+                        "w": 340
+                    },
+                    "medium": {
+                        "h": 1050,
+                        "resize": "fit",
+                        "w": 600
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "indices": [
+                    100,
+                    123
+                ],
+                "type": "photo",
+                "id": 698144858347798500,
+                "media_url": "http://pbs.twimg.com/media/CbBPDLuWAAAq-b-.jpg"
+            }]
+        }
+    },
+    "user": {
+        "follow_request_sent": false,
+        "has_extended_profile": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 23430415,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "verified": false,
+        "profile_text_color": "666666",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "profile_sidebar_fill_color": "252429",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http://t.co/e8qRDh2wud",
+                    "indices": [
+                        0,
+                        22
+                    ],
+                    "expanded_url": "http://www.trendy.co.ke",
+                    "display_url": "trendy.co.ke"
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "followers_count": 340,
+        "profile_sidebar_border_color": "181A1E",
+        "id_str": "23430415",
+        "profile_background_color": "1A1B1F",
+        "listed_count": 8,
+        "is_translation_enabled": false,
+        "utc_offset": -18000,
+        "statuses_count": 931,
+        "description": "Lawyer, Entrepreneur, Christian, Son, Sibling and ..huge Liverpool fan!! #YNWA,",
+        "friends_count": 95,
+        "location": "Nairobi, Kenya",
+        "profile_link_color": "2F7BED",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "screen_name": "mwaniki",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 9,
+        "name": "mwaniki josh",
+        "notifications": false,
+        "url": "http://t.co/e8qRDh2wud",
+        "created_at": "Mon Mar 09 12:45:42 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+    },
+    "geo": null,
+    "in_reply_to_user_id_str": null,
+    "possibly_sensitive": false,
+    "lang": "en",
+    "created_at": "Thu Feb 25 09:05:17 +0000 2016",
+    "in_reply_to_status_id_str": null,
+    "place": null,
+    "extended_entities": {
+        "media": [{
+            "source_user_id": 1378315837,
+            "source_status_id_str": "698144858654052352",
+            "expanded_url": "http://twitter.com/Andela/status/698144858654052352/photo/1",
+            "display_url": "pic.twitter.com/D0DFSn1YMY",
+            "url": "https://t.co/D0DFSn1YMY",
+            "media_url_https": "https://pbs.twimg.com/media/CbBPDLuWAAAq-b-.jpg",
+            "source_user_id_str": "1378315837",
+            "source_status_id": 698144858654052400,
+            "id_str": "698144858347798528",
+            "sizes": {
+                "large": {
+                    "h": 1750,
+                    "resize": "fit",
+                    "w": 1000
+                },
+                "small": {
+                    "h": 595,
+                    "resize": "fit",
+                    "w": 340
+                },
+                "medium": {
+                    "h": 1050,
+                    "resize": "fit",
+                    "w": 600
+                },
+                "thumb": {
+                    "h": 150,
+                    "resize": "crop",
+                    "w": 150
+                }
+            },
+            "indices": [
+                112,
+                135
+            ],
+            "type": "photo",
+            "id": 698144858347798500,
+            "media_url": "http://pbs.twimg.com/media/CbBPDLuWAAAq-b-.jpg"
+        }]
+    }
+}, {
+    "contributors": null,
+    "truncated": false,
+    "text": ".@unicodeveloper from @andela is #trending globally on @github as top #PHP dev! https://t.co/t0cA29ct1V",
+    "is_quote_status": false,
+    "in_reply_to_status_id": null,
+    "id": 702780636759593000,
+    "favorite_count": 3,
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "retweeted": false,
+    "coordinates": null,
+    "entities": {
+        "symbols": [],
+        "user_mentions": [{
+            "id": 178849006,
+            "indices": [
+                1,
+                16
+            ],
+            "id_str": "178849006",
+            "screen_name": "unicodeveloper",
+            "name": "Prosper Otemuyiwa"
+        }, {
+            "id": 1378315837,
+            "indices": [
+                22,
+                29
+            ],
+            "id_str": "1378315837",
+            "screen_name": "Andela",
+            "name": "Andela"
+        }, {
+            "id": 13334762,
+            "indices": [
+                55,
+                62
+            ],
+            "id_str": "13334762",
+            "screen_name": "github",
+            "name": "GitHub"
+        }],
+        "hashtags": [{
+            "indices": [
+                33,
+                42
+            ],
+            "text": "trending"
+        }, {
+            "indices": [
+                70,
+                74
+            ],
+            "text": "PHP"
+        }],
+        "urls": [{
+            "url": "https://t.co/t0cA29ct1V",
+            "indices": [
+                80,
+                103
+            ],
+            "expanded_url": "http://snip.ly/e20rt",
+            "display_url": "snip.ly/e20rt"
+        }]
+    },
+    "in_reply_to_screen_name": null,
+    "in_reply_to_user_id": null,
+    "retweet_count": 2,
+    "id_str": "702780636759592965",
+    "favorited": false,
+    "user": {
+        "follow_request_sent": false,
+        "has_extended_profile": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 23430415,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "verified": false,
+        "profile_text_color": "666666",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "profile_sidebar_fill_color": "252429",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http://t.co/e8qRDh2wud",
+                    "indices": [
+                        0,
+                        22
+                    ],
+                    "expanded_url": "http://www.trendy.co.ke",
+                    "display_url": "trendy.co.ke"
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "followers_count": 340,
+        "profile_sidebar_border_color": "181A1E",
+        "id_str": "23430415",
+        "profile_background_color": "1A1B1F",
+        "listed_count": 8,
+        "is_translation_enabled": false,
+        "utc_offset": -18000,
+        "statuses_count": 931,
+        "description": "Lawyer, Entrepreneur, Christian, Son, Sibling and ..huge Liverpool fan!! #YNWA,",
+        "friends_count": 95,
+        "location": "Nairobi, Kenya",
+        "profile_link_color": "2F7BED",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "screen_name": "mwaniki",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 9,
+        "name": "mwaniki josh",
+        "notifications": false,
+        "url": "http://t.co/e8qRDh2wud",
+        "created_at": "Mon Mar 09 12:45:42 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+    },
+    "geo": null,
+    "in_reply_to_user_id_str": null,
+    "possibly_sensitive": false,
+    "lang": "en",
+    "created_at": "Thu Feb 25 09:02:15 +0000 2016",
+    "in_reply_to_status_id_str": null,
+    "place": null
+}, {
+    "contributors": null,
+    "truncated": false,
+    "text": "@Iamkugu time to invest in barrels!! Not land. Lol. Who has storage?",
+    "is_quote_status": false,
+    "in_reply_to_status_id": 687310121198858200,
+    "id": 687343382658728000,
+    "favorite_count": 0,
+    "source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for iΟS</a>",
+    "retweeted": false,
+    "coordinates": null,
+    "entities": {
+        "symbols": [],
+        "user_mentions": [{
+            "id": 32362477,
+            "indices": [
+                0,
+                8
+            ],
+            "id_str": "32362477",
+            "screen_name": "Iamkugu",
+            "name": "Mela"
+        }],
+        "hashtags": [],
+        "urls": []
+    },
+    "in_reply_to_screen_name": "Iamkugu",
+    "in_reply_to_user_id": 32362477,
+    "retweet_count": 0,
+    "id_str": "687343382658727937",
+    "favorited": false,
+    "user": {
+        "follow_request_sent": false,
+        "has_extended_profile": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 23430415,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "verified": false,
+        "profile_text_color": "666666",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "profile_sidebar_fill_color": "252429",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http://t.co/e8qRDh2wud",
+                    "indices": [
+                        0,
+                        22
+                    ],
+                    "expanded_url": "http://www.trendy.co.ke",
+                    "display_url": "trendy.co.ke"
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "followers_count": 340,
+        "profile_sidebar_border_color": "181A1E",
+        "id_str": "23430415",
+        "profile_background_color": "1A1B1F",
+        "listed_count": 8,
+        "is_translation_enabled": false,
+        "utc_offset": -18000,
+        "statuses_count": 931,
+        "description": "Lawyer, Entrepreneur, Christian, Son, Sibling and ..huge Liverpool fan!! #YNWA,",
+        "friends_count": 95,
+        "location": "Nairobi, Kenya",
+        "profile_link_color": "2F7BED",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "screen_name": "mwaniki",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 9,
+        "name": "mwaniki josh",
+        "notifications": false,
+        "url": "http://t.co/e8qRDh2wud",
+        "created_at": "Mon Mar 09 12:45:42 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+    },
+    "geo": null,
+    "in_reply_to_user_id_str": "32362477",
+    "lang": "en",
+    "created_at": "Wed Jan 13 18:40:07 +0000 2016",
+    "in_reply_to_status_id_str": "687310121198858241",
+    "place": null
+}, {
+    "contributors": null,
+    "truncated": false,
+    "text": "@elanimuziki also, tons of businesses are raided daily over playing unlicensed music. They all pay. The artist MUST then benefit",
+    "is_quote_status": false,
+    "in_reply_to_status_id": 687247920962351100,
+    "id": 687343213921890300,
+    "favorite_count": 0,
+    "source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for iΟS</a>",
+    "retweeted": false,
+    "coordinates": null,
+    "entities": {
+        "symbols": [],
+        "user_mentions": [{
+            "id": 272030962,
+            "indices": [
+                0,
+                12
+            ],
+            "id_str": "272030962",
+            "screen_name": "elanimuziki",
+            "name": "Elani"
+        }],
+        "hashtags": [],
+        "urls": []
+    },
+    "in_reply_to_screen_name": "elanimuziki",
+    "in_reply_to_user_id": 272030962,
+    "retweet_count": 0,
+    "id_str": "687343213921890304",
+    "favorited": false,
+    "user": {
+        "follow_request_sent": false,
+        "has_extended_profile": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 23430415,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "verified": false,
+        "profile_text_color": "666666",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "profile_sidebar_fill_color": "252429",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http://t.co/e8qRDh2wud",
+                    "indices": [
+                        0,
+                        22
+                    ],
+                    "expanded_url": "http://www.trendy.co.ke",
+                    "display_url": "trendy.co.ke"
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "followers_count": 340,
+        "profile_sidebar_border_color": "181A1E",
+        "id_str": "23430415",
+        "profile_background_color": "1A1B1F",
+        "listed_count": 8,
+        "is_translation_enabled": false,
+        "utc_offset": -18000,
+        "statuses_count": 931,
+        "description": "Lawyer, Entrepreneur, Christian, Son, Sibling and ..huge Liverpool fan!! #YNWA,",
+        "friends_count": 95,
+        "location": "Nairobi, Kenya",
+        "profile_link_color": "2F7BED",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/430930375087378432/GS2mu9iN_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "screen_name": "mwaniki",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 9,
+        "name": "mwaniki josh",
+        "notifications": false,
+        "url": "http://t.co/e8qRDh2wud",
+        "created_at": "Mon Mar 09 12:45:42 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+    },
+    "geo": null,
+    "in_reply_to_user_id_str": "272030962",
+    "lang": "en",
+    "created_at": "Wed Jan 13 18:39:27 +0000 2016",
+    "in_reply_to_status_id_str": "687247920962351105",
+    "place": null
+}]

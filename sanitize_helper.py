@@ -47,6 +47,7 @@ stop_words = [
 "few",
 "for",
 "from",
+"From",
 "furthe'r",
 "had",
 "hadn't",

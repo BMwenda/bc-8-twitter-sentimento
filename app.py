@@ -13,14 +13,12 @@ Options:
 import json
 import sys
 import cmd
-import config
 from twitter import *
 import time
 import datetime
 from pprint import pprint
 import operator
 from collections import Counter
-import sanitize_helper
 from nltk.corpus import stopwords
 import string
 from nltk.tokenize import word_tokenize

@@ -14,7 +14,7 @@ Additional feature:
   Removal of keywords
 
 To Install
-git clone https://github.com/Desterio/bc-8-twitter-sentimento.git
+  - run command: git clone https://github.com/Desterio/bc-8-twitter-sentimento.git
 cd into the bc-8-twitter-sentimento.git folder
 
 Create a virtual environment:

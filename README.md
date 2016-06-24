@@ -13,4 +13,8 @@ Analysis Done
 Additional feature:
   Removal of keywords
 
+All the dependencies needed by the application are in the requirements.txt. Just run
+ - cd project_root_folder/
+ - pip install -r requirements.txt
 
+Move the nltk folder to user/home. This is files are needed by the nltk library

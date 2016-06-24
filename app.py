@@ -12,6 +12,7 @@ import string
 from nltk.tokenize import word_tokenize
 import nltk_helper
 import utils
+from nltk.twitter import Query, TweetViewer, TweetWriter, credsfromfile
 
 
 config_file = open("config_dev.json", "r")
@@ -33,15 +34,22 @@ def remove_stop_words():
 
     return terms_with_no_stop
 
-def get_tweets(twitter_handle, max_number_of_tweets):
-    tweets = twitter.statuses.user_timeline(screen_name = twitter_handle, count=max_number_of_tweets)
+def get_tweets():
+    twitter_handle = ""
+    max_number_of_tweets = 0
+    twitter_handle = utils.sanitised_input("Enter username: ", str)
+    max_number_of_tweets = utils.sanitised_input("Enter max number of tweets: ", int)
+    
+    tweets = twitter.statuses.user_timeline(screen_name=twitter_handle, count=max_number_of_tweets)
 
     for i in utils.progressbar(tweets, "Download in Progress", 50):
         time.sleep(0.1)
 
     print("Download of tweets complete!")
     print("Fetched {} tweets from {} Time Line".format(len(tweets), twitter_handle))
+
     return tweets
+       
 
 
 def save_to_json(data):
@@ -93,15 +101,12 @@ def get_terms_only_with_no_mentions():
 
      return terms_only
 
-def print_it(my_list):
-    print('(' + ', '.join(my_list) + ')')
-
 
 def main():
-    #tweets = get_tweets("BBCNews", 500)
-    #save_to_json(tweets)
+    tweets = get_tweets()
+    save_to_json(tweets)
 
-    #time.sleep(3)
+    time.sleep(3)
 
     #do_analysis = input("Click yes to do some analysis (y/n): ")
 

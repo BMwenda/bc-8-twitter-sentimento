@@ -13,6 +13,7 @@ from nltk.tokenize import word_tokenize
 import nltk_helper
 import utils
 
+
 config_file = open("config_dev.json", "r")
 config = json.loads(config_file.read())
 
@@ -39,6 +40,7 @@ def get_tweets(twitter_handle, max_number_of_tweets):
         time.sleep(0.1)
 
     print("Download of tweets complete!")
+    print("Fetched {} tweets from {} Time Line".format(len(tweets), twitter_handle))
     return tweets
 
 
@@ -62,7 +64,7 @@ def get_top_five_terms():
     count_all = Counter()
     terms_all = remove_stop_words()
     count_all.update(terms_all)
-    return count_all.most_common(5)
+    return count_all.most_common(10)
 
 def get_word_count():
     count_all = Counter()
@@ -71,10 +73,13 @@ def get_word_count():
     return count_all.most_common()
 
 def get_hash_tags():
-     tweets = remove_stop_words()
-     terms_hash = [term for term in tweets if term.startswith("#")]
+    count_all = Counter()
+    tweets = remove_stop_words()
+    terms_hash = [term for term in tweets if term.startswith("#")]
+    count_all.update(terms_hash)
+     
 
-     return terms_hash
+    return count_all.most_common(20)
 
 def get_single_terms():
     tweets = remove_stop_words()
@@ -89,38 +94,39 @@ def get_terms_only_with_no_mentions():
      return terms_only
 
 def print_it(my_list):
-    for item in my_list:
-        print(item + "\n")
+    print('(' + ', '.join(my_list) + ')')
 
 
 def main():
-    tweets = get_tweets("BBCNews", 500)
-    save_to_json(tweets)
+    #tweets = get_tweets("BBCNews", 500)
+    #save_to_json(tweets)
 
-    do_analysis = input("Click yes to do some analysis (y/n): ")
+    #time.sleep(3)
 
-    if(do_analysis == "y" or "Y"):
-        print("Lets do a little analysis of this tweets:\n")
-        print("All the words in the tweet with their occurrences in descending:\n")
-        print(get_word_count())
-        print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-        print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-        print("\n")
-        print("\n")
+    #do_analysis = input("Click yes to do some analysis (y/n): ")
 
-        print("Top words five words in the tweets:\n")
-        print(get_top_five_terms())
-        print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-        print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-        print("\n")
-        print("\n")
+    #if(do_analysis == "y" or "Y"):
+    print("Lets do a little analysis of this tweets:\n")
+    print("All the words in the tweet with their occurrences in descending:\n")
+    pprint(get_word_count(), width=80)
+    print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+    print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+    print("\n")
+    print("\n")
 
-        print("Hash tags in our tweets:\n")
-        print(get_hash_tags())
-        print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-        print("\n")
-        print("\n")
+    print("Top words five words in the tweets:\n")
+    pprint(get_top_five_terms())
+    print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+    print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+    print("\n")
+    print("\n")
+
+    print("Hash tags in our tweets:\n")
+    pprint(get_hash_tags())
+    print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+    print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+    print("\n")
+    print("\n")
 
     #print_it(get_top_five_terms())
     #print_it(get_hash_tags())

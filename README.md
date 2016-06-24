@@ -13,6 +13,17 @@ Analysis Done
 Additional feature:
   Removal of keywords
 
+To Install
+git clone https://github.com/Desterio/bc-8-twitter-sentimento.git
+cd into the bc-8-twitter-sentimento.git folder
+
+Create a virtual environment:
+  - unix - run command: virtualenv env-name
+  - run command: source env-name/bin/activate to activate the virtua environment
+  - windows - virtualenv env-name
+  - run command: env-name/Scripts/activate
+The aplication has been created with python 3
+
 All the dependencies needed by the application are in the requirements.txt. Just run
  - cd project_root_folder/
  - pip install -r requirements.txt

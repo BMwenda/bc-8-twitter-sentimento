@@ -1,4 +1,18 @@
+"""
+Twitter-Sentimento
+Usage:
+    twit get
+    twit quit
+    twit (-i | --interactive)
+    twit (-h | --help | --version)
+Options:
+    -i, --interactive  Interactive Mode
+    -h, --help  Show this screen and exit.
+"""
+
 import json
+import sys
+import cmd
 import config
 from twitter import *
 import time
@@ -12,7 +26,8 @@ import string
 from nltk.tokenize import word_tokenize
 import nltk_helper
 import utils
-from nltk.twitter import Query, TweetViewer, TweetWriter, credsfromfile
+from pyfiglet import figlet_format
+from termcolor import cprint, colored
 
 
 config_file = open("config_dev.json", "r")
@@ -27,6 +42,16 @@ twitter = Twitter(auth = OAuth(access_token, access_token_secret, consumer_key, 
 
 punctuation = list(string.punctuation)
 stop = stopwords.words('english') + punctuation + ['rt', 'via']
+
+def intro_to_project():
+    print('\t ')
+    cprint(figlet_format("Its All Twitter Senti"), 'cyan')
+    print('+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+')
+    print('\t\t Hey Twitter Lovers')
+    print('\t Peek on what happens on your timeline and other people too')
+    print('. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ')
+    print('\t\t For any help please print help then enter')
+    print('-------------------------------------------------------------------------')
 
 def remove_stop_words():
     tweets = read_from_json()
@@ -102,6 +127,7 @@ def get_terms_only_with_no_mentions():
 
 
 def main():
+    intro_to_project()
     tweets = get_tweets()
     save_to_json(tweets)
 

@@ -66,7 +66,6 @@ def read_from_json():
 
     tweets_sentence = ", ".join(tweet_list)
     return tweets_sentence
-    #return tweet_list
 
 def get_top_five_terms():
     count_all = Counter()
@@ -119,7 +118,7 @@ def main():
     print("\n")
     print("\n")
 
-    print("Top words five words in the tweets:\n")
+    print("Top five words in the tweets:\n")
     pprint(get_top_five_terms())
     print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
     print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
@@ -133,10 +132,6 @@ def main():
     print("\n")
     print("\n")
 
-    #print_it(get_top_five_terms())
-    #print_it(get_hash_tags())
-    #print(get_terms_only_with_no_mentions())
-    #print_it(get_single_terms())
 
 if __name__ == "__main__":
     main()

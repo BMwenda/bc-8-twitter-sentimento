@@ -102,7 +102,7 @@ def main():
     if(do_analysis == "y" or "Y"):
         print("Lets do a little analysis of this tweets:\n")
         print("All the words in the tweet with their occurrences in descending:\n")
-        #print(get_word_count())
+        print(get_word_count())
         print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
         print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
         print("\n")
